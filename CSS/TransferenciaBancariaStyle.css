@@ -1,0 +1,73 @@
+.bank-card a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.path a{
+    color: rgb(81, 81, 243);
+    text-decoration: inherit;
+}
+
+.path{
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 20;
+}
+
+.fa-arrow-circle-right{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bank-card{
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid rgb(52,151,206) !important;
+    background-color: rgb(255, 255, 255);
+}
+
+.bank-card:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+.bank-nothing{
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.bank-nothing .bank-card:hover{
+    background-color: white;
+}
+
+#marginLeft{
+    margin-left: -250px;
+}
+
+#nothingInbank{
+    margin-top: 0.8em;
+    font-size: 45;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#nothingInbank2{
+    font-size: 25;
+    text-align: center;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+}
+
+#nothingInbank3{
+    font-size: 20;
+    text-align: center;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+}

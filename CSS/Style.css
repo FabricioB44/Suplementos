@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+    font-family: 'Heebo', sans-serif;
+}
+ 
+.with_toggle {
+    display: none;
+ }
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+ }
+ 
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('/Images/Misc/Banner.jpg');
+    background-position-y: 53%;
+    padding-top: 4em;
+    padding-bottom: 1em;
+}
+
+#logo1 {
+    width: 21em;
+    margin: auto;
+    display: block;
+    margin-left: 200px; 
+}
+
+#logo2 {
+    width: 20em;
+    margin: auto;
+    display: block;
+    margin-right: 200px;
+}
+
+.centradoFotos {
+    margin: 0 auto;
+    padding: 0 .8em;
+}
+
+@media screen and (min-width: 52em) {
+    .centradoFotos {
+        margin: 0 auto;
+        padding: 0 .8em;
+    }
+}
+
+.tarjeta {
+    color: lightcyan;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+h1 {
+    font-size: 36px;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tarjeta:hover {
+    box-shadow: 3px 3px 8px rgb(196, 192, 192);
+    width: 15%;
+    height: auto;
+    margin: 0 0 -1.4em;
+    transition: 0.3s;
+}
+
+.tarjetaContent {
+    padding: 0.5em;
+    color: rgb(0, 0, 0);
+}
+
+
+.tarjetaContent h2 {
+    font-size: 18;
+    margin-top: 0;
+}
+
+.tarjetaContent h3 {
+    font-size: 15;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.tarjetaContent {
+    font-size: 15;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+
+.heartBTN {
+    margin-top: 0.1em;
+    margin-right: 0.1em;
+    padding: 0.6em 0.5em 0.6em 0.5em;
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    text-align: center;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #0ecfbc;
+    z-index: 4;
+}
+
+.heartBTNshow {
+    margin-top: 0.1em;
+    margin-right: 0.1em;
+    padding: 0.6em 0.5em 0.6em 0.5em;
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    text-align: center;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #0ecfbc;
+    z-index: 3;
+}
+
+.heartBTNshow:hover {
+    background-color: rgba(206, 206, 206, 0.658);
+    border-radius: 5em;
+}
+
+h4 {
+    padding: 0.2em 0.3em;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    text-align: center;
+    font-weight: normal;
+    background-color: #25d366;
+    border-radius: 1em 0 0.6em 0em;
+}
+
+.tarjetaContent p {
+    font-size: 90%;
+}
+
+.thumbnail {
+    margin: 0;
+    position: relative;
+}
+
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail img {
+    border-radius: 1em 1em 0em 0em;
+}
+
+/*flex*/
+
+.tarjeta {
+    background: transparent;
+    margin-bottom: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 13%;
+    border-radius: 1.1em 1.1em 1em 1em;
+}
+
+.tarjeta.searched {
+    margin-left: 0.9em;
+}
+
+.cards {
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards.searched {
+    width: 100%;
+    justify-content: start;
+}
+
+.pieDePaginaFondo {
+    bottom: 0;
+    width: 100%;
+    background-image: url('/Images/Misc/Banner.jpg');
+    background-position-y: 53%;
+    height: auto;
+}
+
+.pieDePagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    padding: 0.5em 2em;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.darken:hover {
+    filter: brightness(0.7);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.float{
+	position:fixed;
+	width:2em;
+	height:2em;
+	bottom:4.3em;
+	right:1em;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius: 1em;
+	text-align:center;
+  font-size: 1.5em;
+	box-shadow: 0.1em 0.1em 0.2em #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:0.5em;
+}

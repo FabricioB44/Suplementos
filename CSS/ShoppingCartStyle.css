@@ -1,0 +1,186 @@
+.sections{
+    width: 85%;
+}
+
+.cart-details{
+    width: 90%;
+}
+
+.path a{
+    color: rgb(81, 81, 243);
+    text-decoration: inherit;
+}
+
+.path{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    font-size: 20;
+    padding-top: 4em;  
+}
+
+.fa-arrow-circle-right{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cart-card{
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-content: space-between;
+    height: 150px;
+    border-bottom: 1px solid rgb(52,151,206) !important;
+    background-color: rgb(255, 255, 255);
+}
+
+.cart-card:hover{
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+.cartImage{
+    float: left;
+    width: auto;
+    height: 100%;
+}
+
+.cartInfo{
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: auto;
+    font-size: 40;
+}
+
+.cartName{
+    font-size: 40;
+    line-height: 1;
+}
+
+.cartAmmount{
+    display: flex;
+    margin-top: 45px;
+    padding-left: 20px;
+    width: auto;
+    font-size: 40;
+}
+
+#cantTotal{
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.cartStock{
+    margin-top: 10px;
+    font-size: 24;
+}
+
+.cartPriceInfo{
+    float: left;
+    text-align: center;
+    margin-top: 27px;
+    margin-left: 15px;
+    width: auto;
+}
+
+.cartOffer{
+    font-size: 24;
+    padding: 0 5px 0 5px;
+    background-color: #25d366;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.cartPrice{
+    margin-top: 13px;
+    font-size: 24;
+    float: left;
+}
+
+.cartDelete{
+    float: right;
+    margin-top: -45px;
+    width: 20%;
+    height: 50px;
+    padding: 5px 0 5px 0;
+    background: #ddd;
+    border: 1px solid rgb(52,151,206) ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cartDelete:hover{
+    background: #ccc;
+}
+
+.size_radio_btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    line-height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #ddd;
+}
+
+.size_radio_btn.selected{
+    background: #383838 !important;
+    color: #fff;
+}
+
+.size_radio_btn:hover{
+    background-color: #ccc;
+}
+
+.totalContainer{
+    position: fixed;
+    top: 4em;
+    margin-top: 28px;
+    right: 7.5%;
+    padding: 10px 10px 10px 10px;
+    width: 22%;
+    height: auto;
+    border-bottom: 1px solid rgb(52,151,206) !important;
+    background-color: rgb(255, 255, 255);
+}
+
+#totalInfo{
+    font-size: 25;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid rgb(52,151,206);
+    color: #383838;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.finalizar-btn{
+    background: #0ecfbc;
+    color: #fff;
+}
+
+.finalizar-btn:hover{
+    color: rgb(52,151,206);;
+}
+
+.continuar-btn{
+    color: rgb(52,151,206);
+}
+
+.continuar-btn:hover{
+    background: #ddd;
+}
